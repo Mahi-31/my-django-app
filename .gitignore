@@ -1,0 +1,15 @@
+myworld/
+venv/
+env/
+
+db.sqlite3
+
+__pycache__/
+*.pyc
+
+.env
+
+.DS_Store
+Thumbs.db
+
+my_tennis_club/productionfiles/
