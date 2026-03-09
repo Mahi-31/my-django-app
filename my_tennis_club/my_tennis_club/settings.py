@@ -30,7 +30,7 @@ SECRET_KEY = config('SECRET_KEY', default= 'django-insecure-zx$j5us($y%^nt2dvt*4
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://my-django-app-production-bd4f.up.railway.app']
