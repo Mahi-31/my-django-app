@@ -33,6 +33,7 @@ SECRET_KEY = config('SECRET_KEY', default= 'django-insecure-zx$j5us($y%^nt2dvt*4
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
 
 
 # Application definition
